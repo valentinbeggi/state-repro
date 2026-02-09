@@ -1,0 +1,31 @@
+{
+  "name": "state-repro",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Minimal repro: useState vs useWidgetState on mobile fullscreen remount",
+  "type": "module",
+  "scripts": {
+    "dev": "skybridge dev",
+    "build": "skybridge build",
+    "start": "skybridge start"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "express": "^5.2.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "skybridge": "^0.30.0",
+    "zod": "^3.25.51"
+  },
+  "devDependencies": {
+    "@skybridge/devtools": "^0.30.0",
+    "@types/express": "^5.0.6",
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "nodemon": "^3.1.11",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}
